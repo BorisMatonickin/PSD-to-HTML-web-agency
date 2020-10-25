@@ -644,7 +644,6 @@ p {
 @media only screen and (max-width: 56.25em) {
   .nav-icon {
     display: inline-block;
-    width: 100%;
     margin: 0 1rem;
     cursor: pointer;
     position: absolute;
