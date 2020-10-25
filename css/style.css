@@ -311,7 +311,8 @@ p {
   padding-top: 4rem;
 }
 
-/* ANIMATIONS */
+/* BUTTONS STYLE */
+
 .btn-cta {
   font-family: "Montserrat", sans-serif;
   font-size: 1.4rem;
@@ -405,6 +406,8 @@ p {
   background: #68cf2a;
   transition: 0.3s ease-in-out;
 }
+
+/* PRICING PLANS STYLE */
 
 .plan-box {
   max-width: 85rem;
@@ -532,6 +535,8 @@ p {
   width: calc(3 * ((100% - (3 * 6rem)) / 4) + (2 * 6rem));
 }
 
+/* HEADER STYLE */
+
 .header-bg-primary {
   background-image: linear-gradient(
       rgba(34, 62, 63, 0.7),
@@ -614,6 +619,8 @@ p {
 .header-cta-center h1 {
   margin-bottom: 3.2rem;
 }
+
+/* NAVIGATION STYLE */
 
 .navbar {
   float: right;
