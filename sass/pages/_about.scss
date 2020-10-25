@@ -1,0 +1,53 @@
+/* ABOUT US PAGE STYLE */
+
+.about-header {
+    max-width: 72rem;
+    margin: 0 auto;
+    text-align: center;
+
+    p {
+        font-size: 1.488rem;
+        margin-top: 4rem;
+    }
+    hr {
+        width: 10%;
+        border-bottom: 1px solid $color-button-primary;
+    }
+}
+.team {
+
+    .container {
+        padding: 7.2rem 2rem 11rem;
+
+        @include respond(tab-port) {
+            padding: 5rem 1rem 6rem;
+        }
+    }
+}
+.team-header {
+    max-width: 68rem;
+    margin: 0 auto;
+    text-align: center;
+
+    p {
+        font-size: 1.488rem;
+        margin-top: 4rem;
+    }
+    hr {
+        width: 10%;
+        border-bottom: 1px solid $color-button-primary;
+    }
+}
+.team-main {
+    margin-top: 8rem;
+
+    @include respond(tab-port) {
+        text-align: center;
+    }
+
+    img {
+        @include respond(tab-port) {
+            max-width: 100%;
+        }
+    }
+}

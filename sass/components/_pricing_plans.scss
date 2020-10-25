@@ -1,0 +1,58 @@
+.plan-box {
+    max-width: 85rem;
+    background: $color-background-primary;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+
+    div {
+        width: 33.33%;
+        float: left;
+        border: 1px solid $color-text-green-light;
+
+        @include respondMin(tab-port) {
+            &:first-child {
+                border-right: none;
+            }
+
+            &:nth-child(2) {
+                border-right: none;
+            }
+        }
+        
+        @include respond(phone) {
+            width: 100%;
+            float: none;
+        }
+    }
+    h4 {
+        text-transform: uppercase;
+        color: $color-text-green-medium;
+        padding: 2.4rem 0;
+    }
+    ul {
+        list-style: none;
+        margin: 2.4rem 0;
+    }
+    ul li {
+        color: $color-text-green-light;
+        font-size: 1.4rem;
+        padding-bottom: 1.2rem;
+    }
+    a {
+        display: inline-block;
+        text-decoration: none;
+        margin-bottom: 3rem;
+    }
+}
+.plan-price {
+    color: $color-text-green-dark;
+    font-family: $secondary-font-family;
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 6rem;
+}
+.month {
+    color: $color-text-green-dark;
+    font-weight: 600;
+}

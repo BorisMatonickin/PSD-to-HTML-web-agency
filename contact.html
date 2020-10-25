@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge, chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <!-- HTML5 shiv and Respond.js IE8 support of HTML elements and media queries -->
+        <!-- [if lt IE 9]>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+                <![endif] -->
+    </head>
+    <body>
+        <!-- Header section -->
+        <header class="header bg-color-primary">
+            <div class="container">
+                <div class="logo-box">
+                    <a href="#" class="logo-item">
+                        <img src="img/logo_green.png" alt="logo">
+                    </a>
+                    <div class="logo-item">
+                        <img src="img/icon_phone_green.png" alt="call us">
+                    </div>
+                    <p class="text-green-dark logo-item">+62 202 555 0117</p>
+                </div>
+                <a class="nav-icon js-nav-icon">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </a>
+                <nav class="navbar js-navbar">
+                    <ul class="nav nav-secondary">
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li><a href="about.html" class="nav-link">About us</a></li>
+                        <li><a href="pricing.html" class="nav-link">Pricing</a></li>
+                        <li><a href="contact.html" class="nav-link active">Contact us</a></li>
+                        <li><a href="#" class="btn-nav">Get started</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- Map section -->
+        <section id="map"></section>
+        <section class="contact-form">
+            <div class="container">
+                <div class="contact-form-header" data-aos="zoom-in">
+                    <h1>Get In Touch With Us</h1>
+                    <hr>
+                    <p class="p-medium">We are here to help. Want to learn more about our services? Please get in touch, we'd love to hear from you!</p>
+                </div>               
+                <div class="row">
+                    <div class="col-2-of-3">
+                        <div class="contact-form-main">
+                            <form action="#">
+                                <div data-aos="zoom-in">
+                                    <label for="name">Name:</label>
+                                    <input type="text" id="name" name="name">
+                                </div>
+                                <div data-aos="zoom-in" data-aos-delay="300">
+                                    <label for="email">Email:</label>
+                                    <input type="email" id="email" name="email">
+                                </div>
+                                <div data-aos="zoom-in" data-aos-delay="600">
+                                    <label for="phone">Phone:</label>
+                                    <input type="text" id="phone" name="phone">
+                                </div>
+                                <div data-aos="zoom-in" data-aos-delay="900">
+                                    <label for="message">Message:</label>
+                                    <textarea name="message" id="message"></textarea>
+                                </div>
+                                <div data-aos="zoom-in" data-aos-delay="1200">
+                                    <button class="form-btn">Send message</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-1-of-3">
+                        <div class="contact-form-info" data-aos="zoom-in" data-aos-delay="1800">
+                            <h2>Headquarter</h2>
+                            <ul>
+                                <li class="text-green-light"><span class="contact-icon"><img src="img/icon_marker.png" aria-hidden="true"></span>610 Overlook Circle Suite 323 Kalamazoo, MI 49009</li>
+                                <li class="text-green-light"><span class="contact-icon"><img src="img/icon_phone_2.png" aria-hidden="true"></span>+62 202 555 0117</li>
+                                <li class="text-green-dark"><span class="contact-icon"><img src="img/icon_mail.png" aria-hidden="true"></span>hi@wapik.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- CTA section -->
+        <section class="cta-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2-of-3">
+                        <p class="paragraph-big">Do You Like Wapik? Download it Now</p>
+                        <p class="cta-paragraph-footer">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+                    </div>
+                    <div class="col-1-of-3">
+                        <a href="#" class="btn-cta-download">Download now! &#45; Free forever</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer section -->
+        <footer class="footer bg-color-primary">
+            <div class="container">
+                <div class="footer-body">
+                    <div class="row">
+                        <div class="col-1-of-4">
+                            <img src="img/footer_logo.png" alt="logo">
+                            <ul>
+                                <li>&#64;: <span>hi&#64;wapik.com</span></li>
+                                <li>p: +62 202 555 0117</li>
+                                <li>a: 610 Overlook Circle Suite 323 Kalamazoo, MI 49009</li>
+                            </ul>
+                        </div>
+                        <div class="col-1-of-4">
+                            <h5>Company</h5>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About us</a></li>
+                                <li><a href="pricing.html">Pricing</a></li>
+                                <li><a href="contact.html" class="active-footer">Contact us</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-1-of-4">
+                            <h5>Others</h5>
+                            <ul>
+                                <li><a href="#">Help &amp; Support</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Terms</a></li>
+                                <li><a href="#">Sitemap</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-1-of-4">
+                            <h5>Newsletter</h5>
+                            <ul>
+                                <li>Subscribe to our newsletter and get all the cool news</li>
+                                <li>
+                                    <form action="#">
+                                        <input type="text" id="email" name="email" placeholder="Enter Email">
+                                        <input type="image" src="img/submit_icon.png" alt="submit">
+                                    </form>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <hr class="divider-horizontal">
+                    <p>All rights reserved 2020.</p>
+                    <div class="social-icons">
+                        <a href="https://twitter.com"><img src="img/icon_tw.png" alt="twitter"></a>
+                        <a href="https://facebook.com"><img src="img/icon_fb.png" alt="facebook"></a>
+                        <a href="https://instagram.com"><img src="img/icon_inst.png" alt="instagram"></a>
+                        <a href="https://dribbble.com"><img src="img/icon_drib.png" alt="dribbble"></a>
+                        <a href="https://github.com"><img src="img/icon_git.png" alt="github"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.esm.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="js/index.js"></script>
+        <script src="js/map.js"></script>
+    </body>    
+</html>

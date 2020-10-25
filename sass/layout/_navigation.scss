@@ -1,0 +1,69 @@
+.navbar {
+    float: right;
+
+    @include respond(tab-port) {
+        display: none;
+        float: none;
+        overflow: hidden;
+        width: 100%;
+        background: rgba(73, 144, 147, 0.5);
+    }
+}
+.nav-icon {
+    display: none;
+
+    @include respond(tab-port) {
+        display: inline-block;
+        float: right;
+        margin: 0 1rem;
+        cursor: pointer;
+
+        & ion-icon {
+            font-size: 200%;
+            color: $color-text-green-light;
+        }
+    }
+}
+.nav ul {
+    list-style: none;
+}
+.nav li {
+    display: inline-block;
+    margin-bottom: 3.2rem;
+
+    @include respond(tab-port) {
+        display: block;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+}
+.nav-link {
+    font-family: $secondary-font-family;       
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 2.88rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.nav-primary {
+
+    .nav-link {
+        color: $color-text-grey;
+        transition: color 0.3s ease-in;
+    }
+    .nav-link:hover, .active {
+        color: $color-text-white;
+        transition: color 0.3s ease-in-out;
+    }
+}
+.nav-secondary {
+
+    .nav-link {
+        color: $color-text-green-dark;
+        transition: color 0.3s ease-in-out;
+    }
+    .nav-link:hover, .active {
+        color: $color-text-green-light;
+        transition: color 0.3s ease-in-out;
+    }
+}

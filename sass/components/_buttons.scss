@@ -1,0 +1,93 @@
+.btn-cta {
+    font-family: $secondary-font-family;
+    font-size: 1.4rem;
+    padding: 1.5rem 3.5rem;
+    background: $color-text-green-medium;
+    color: $color-text-white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 3px;
+    transition: 0.3s ease-in;
+
+    &:hover {
+        background: $color-on-hover;
+        transition: 0.3s ease-in;
+    }
+}
+.btn-nav {
+    padding: 1.2rem;
+    background: $color-button-secondary;
+    color: $color-text-grey;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 2.88rem;
+    font-size: 1.4rem;
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+        color: $color-text-white;
+        background: $color-on-hover-secondary;
+        transition: 0.3s ease-in-out;
+    }
+}
+.btn-plan {
+    font-family: $secondary-font-family;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: $color-text-white;
+    padding: 1.5rem 2rem;
+    border-radius: 3px;
+}
+.btn-plan-primary {
+    background: $color-button-secondary;
+    transition: 0.3s ease-in;
+
+    &:hover {
+        background: $color-on-hover-secondary;
+        transition: 0.3s ease-in;
+    }
+}
+.btn-plan-selected {
+    background: $color-button-primary;
+    transition: 0.3s ease-in;
+
+    &:hover {
+        background: $color-on-hover;
+        transition: 0.3s ease-in;
+    }
+}
+.btn-cta-download {
+    font-family: $secondary-font-family;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: $color-text-white;
+    background: $color-button-primary;
+    padding: 1.5rem 2.4rem;
+    border-radius: 3px;
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+        background: $color-on-hover;
+        transition: 0.3s ease-in-out;
+    }
+}
+.form-btn {
+    font-family: $secondary-font-family;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: $color-text-white;
+    background: $color-button-primary;
+    padding: 1.5rem 2.4rem;
+    border: none;
+    border-radius: 3px;
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+        background: $color-on-hover;
+        transition: 0.3s ease-in-out;
+    }
+}

@@ -1,0 +1,106 @@
+/* FOOTER AND CTA STYLE */
+
+.cta-section {
+    background-image: linear-gradient(rgba(237, 241, 235, 0.9), rgba(237, 241, 235, 0.9)), url('../img/header_bgr.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    .container {
+        padding: 7rem 2rem 7rem;
+
+        @include respond(tab-port) {
+            padding: 4rem 1rem 6rem;
+        }
+    }
+
+    p.paragraph-big {
+        margin-top: 2rem;
+    }
+
+    a {
+        display: inline-block;
+        text-decoration: none;
+        margin-top: 3rem;
+
+        @include respond(tab-port) {
+            margin-top: 1rem;
+        }
+    }
+}
+.paragraph-big {
+    font-size: 2.8rem;
+    color: $color-text-green-dark;
+}
+.cta-paragraph-footer {
+    font-size: 1.5rem;
+}
+.footer {
+
+    .container {
+        padding: 9rem 2rem 2rem;
+
+        @include respond(tab-port) {
+            padding: 5rem 1rem 1rem;
+        }
+    }
+
+    input[type='text'] {
+        width: 90%;
+        background: #eef1ec;
+        border: none;
+        border-radius: 3px;
+        padding: 1rem 1.8rem 1rem 1rem;
+
+        &:focus {
+            outline: none;
+        }
+    }
+    input[type='image'] {
+        display: inline-block;
+        margin-left: -3rem;
+        vertical-align: middle;
+    }
+}
+.footer-body {
+
+    img, h5 {
+        margin-bottom: 1.2rem;
+    }
+
+    ul {
+        list-style: none;
+        margin-bottom: 2.6rem;
+    }
+
+    ul li {
+        color: $color-text-green-light;
+        font-size: 1.4rem;
+        margin-bottom: 0.8rem;
+
+        span {
+            color: $color-text-green-dark;
+        }
+
+        a {
+            text-decoration: none;
+            color: $color-text-green-light;
+            transition: 0.3s ease-in-out;
+        }
+        a:hover, .active-footer {
+            color: $color-text-green-dark;
+            transition: color 0.3s ease-in-out;
+        }
+    }
+}
+.footer-bottom {
+
+    p {
+        margin-top: 2.4rem;
+    }
+}
+.social-icons {
+    margin-top: -3rem;
+    float: right;
+    vertical-align: middle;
+}
