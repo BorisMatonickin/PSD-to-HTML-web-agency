@@ -491,12 +491,7 @@ p {
   -o-background-size: cover;
   background-size: cover;
   background-position: center;
-  /* 900px */
-}
-@media only screen and (min-width: 56.25em) {
-  .header-bg-primary {
-    background-attachment: fixed;
-  }
+  background-attachment: scroll;
 }
 
 .header-bg-secondary {
@@ -510,12 +505,7 @@ p {
   -o-background-size: cover;
   background-size: cover;
   background-position: center;
-  /* 900px */
-}
-@media only screen and (min-width: 56.25em) {
-  .header-bg-secondary {
-    background-attachment: fixed;
-  }
+  background-attachment: scroll;
 }
 
 .logo-box {

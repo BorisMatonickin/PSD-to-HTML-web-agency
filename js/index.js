@@ -6,6 +6,13 @@ $(document).ready(function() {
        once: true
     });
 
+    // fix background-attachment fixed problem on some mobile browsers
+    $(window).scroll(function () {
+        var scrolledY = $(window).scrollTop();
+        $('.header-bg-primary, .header-bg-secondary').css('background-position', 'left ' + ((scrolledY)) + 'px');
+    });
+
+
     var resizeTimer;
     $(window).on('resize', function (e) {
         clearTimeout(resizeTimer);
