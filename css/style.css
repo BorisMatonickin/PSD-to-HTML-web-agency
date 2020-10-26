@@ -553,7 +553,6 @@ p {
   background-size: cover; 
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
 }
 
 .header-bg-secondary {
@@ -572,7 +571,6 @@ p {
   background-size: cover;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
 }
 
 .logo-box {
