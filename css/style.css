@@ -491,7 +491,13 @@ p {
   -o-background-size: cover;
   background-size: cover;
   background-position: center;
-  background-attachment: scroll;
+  background-attachment: fixed;
+  /* 1200px */
+}
+@media only screen and (max-width: 75em) {
+  .header-bg-primary {
+    background-attachment: scroll;
+  }
 }
 
 .header-bg-secondary {
@@ -505,17 +511,17 @@ p {
   -o-background-size: cover;
   background-size: cover;
   background-position: center;
-  background-attachment: scroll;
+  background-attachment: fixed;
+  /* 1200px */
+}
+@media only screen and (max-width: 75em) {
+  .header-bg-secondary {
+    background-attachment: scroll;
+  }
 }
 
 .logo-box {
   float: left;
-  /* 900px */
-}
-@media only screen and (max-width: 56.25em) {
-  .logo-box {
-    float: none;
-  }
 }
 
 .logo-item {
@@ -659,11 +665,12 @@ p {
     url("../img/header_bgr.jpg");
   background-size: cover;
   background-position: center;
-  /* 900px */
+  background-attachment: fixed;
+  /* 1200px */
 }
-@media only screen and (min-width: 56.25em) {
+@media only screen and (max-width: 75em) {
   .cta-section {
-    background-attachment: fixed;
+    background-attachment: scroll;
   }
 }
 .cta-section .container {

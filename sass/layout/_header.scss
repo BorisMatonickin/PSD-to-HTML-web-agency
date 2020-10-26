@@ -5,7 +5,11 @@
     -o-background-size: cover;
     background-size: cover;
     background-position: center;
-    background-attachment: scroll;
+    background-attachment: fixed;
+
+    @include respond(tab-land) {
+        background-attachment: scroll;
+    }
 }	
 .header-bg-secondary {
     background-image: linear-gradient(rgba(34, 62, 63, 0.7), rgba(48, 107, 109, 0.3)), url('../img/header_bgr_2.jpg');
@@ -14,15 +18,14 @@
     -o-background-size: cover;
     background-size: cover;
     background-position: center;
-    background-attachment: scroll;
+    background-attachment: fixed;
+
+    @include respond(tab-land) {
+        background-attachment: scroll;
+    }
 }
 .logo-box {
     float: left;
-
-    @include respond(tab-port) {
-        float: none;
-        //display: inline-block;
-    }
 }
 .logo-item {
     display: inline-block;
