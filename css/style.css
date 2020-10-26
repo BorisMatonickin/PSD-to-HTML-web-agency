@@ -543,6 +543,10 @@ p {
       rgba(48, 107, 109, 0.3)
     ),
     url("../img/header_bgr.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -554,6 +558,10 @@ p {
       rgba(48, 107, 109, 0.3)
     ),
     url("../img/header_bgr_2.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
