@@ -4,7 +4,10 @@
     background-image: linear-gradient(rgba(237, 241, 235, 0.9), rgba(237, 241, 235, 0.9)), url('../img/header_bgr.jpg');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+
+    @include respondMin(tab-land) {
+        background-attachment: fixed;
+    }
 
     .container {
         padding: 7rem 2rem 7rem;
