@@ -1,4 +1,4 @@
-## PSD-to-HTML-web-agency
+## PSD to HTML web agency demo
 
 This website is created for demo purpose and learning PSD to HTML and CSS conversion.
 
