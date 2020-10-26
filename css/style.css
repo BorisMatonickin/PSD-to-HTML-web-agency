@@ -522,8 +522,6 @@ p {
 
 .logo-item {
   float: left;
-  text-align: center;
-  line-height: 1.92rem;
   padding: 0.2rem;
 }
 .logo-item:nth-child(2):before {
@@ -532,6 +530,7 @@ p {
   margin-left: 2.4rem;
   margin-right: 2.4rem;
   font-size: 2rem;
+  line-height: 1.92rem;
 }
 
 .divider-horizontal {
