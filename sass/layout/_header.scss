@@ -28,7 +28,7 @@
     float: left;
     padding: 0.2rem;
 
-    &:nth-child(2):before {
+    &:nth-child(1):after {
         content: '';
         border: 1px solid #555555;
         margin-left: 2.4rem;

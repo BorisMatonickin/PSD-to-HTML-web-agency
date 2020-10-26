@@ -524,7 +524,7 @@ p {
   float: left;
   padding: 0.2rem;
 }
-.logo-item:nth-child(2):before {
+.logo-item:nth-child(1):after {
   content: "";
   border: 1px solid #555555;
   margin-left: 2.4rem;
